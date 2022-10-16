@@ -1,4 +1,10 @@
 
+vim.opt.guifont = 'jetbrains mono nerd font,dejavu sans mono,iosevka:h16'
+vim.opt.title = true    
+vim.opt.swapfile = false 
+vim.opt.fileencoding = 'utf-8'
+vim.opt.shortmess:append('c')           
+vim.opt.iskeyword:append('-')  
 vim.opt.encoding = "UTF-8"
 vim.opt.autoread = true
 vim.opt.number = true
@@ -24,3 +30,4 @@ vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGai
   command = "if mode() != 'c' | checktime | endif",
   pattern = { "*" },
 })
+vim.cmd 'filetype plugin on'
