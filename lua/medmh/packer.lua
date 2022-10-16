@@ -21,6 +21,7 @@ require('packer').startup(function(use)
     config = function() require("nvim-autopairs").setup {} end
 }
 	use 'frazrepo/vim-rainbow'
+    use 'mfussenegger/nvim-lint'
 
 	use 'neovim/nvim-lspconfig'
 	use 'hrsh7th/cmp-nvim-lsp'
