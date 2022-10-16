@@ -20,3 +20,7 @@ vim.g.mapleader = ','
 vim.opt.termguicolors = true
 
 require'colorizer'.setup()
+vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+  command = "if mode() != 'c' | checktime | endif",
+  pattern = { "*" },
+})
