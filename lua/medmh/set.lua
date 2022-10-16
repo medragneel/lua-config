@@ -1,4 +1,6 @@
 
+vim.opt.encoding = "UTF-8"
+vim.opt.autoread = true
 vim.opt.number = true
 vim.opt.mouse = 'a'
 vim.opt.hlsearch = false
@@ -12,6 +14,7 @@ vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 30
 vim.wo.fillchars='eob: '
 vim.opt.updatetime=50
+vim.opt.showmode = false
 
 vim.g.mapleader = ','
 vim.opt.termguicolors = true

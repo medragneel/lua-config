@@ -8,7 +8,6 @@ local nmap = map.nmap
 
 
 
-nnoremap("<leader>t", "<cmd>Ex<CR>")	
 nnoremap("<leader>s", "<cmd>w<CR>")	
 nnoremap("<leader>`", "<cmd>q!<CR>")	
 nnoremap("Y", "yg$")

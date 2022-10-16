@@ -16,7 +16,10 @@ require('packer').startup(function(use)
 
 	use 'junegunn/fzf'
 	use 'junegunn/fzf.vim'    
-	use 'jiangmiao/auto-pairs'
+    use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+}
 	use 'frazrepo/vim-rainbow'
 
 	use 'neovim/nvim-lspconfig'
