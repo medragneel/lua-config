@@ -22,7 +22,9 @@ nnoremap("<leader>q", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 nnoremap("<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 nnoremap("<leader>h", "gT<CR>")	
 nnoremap("<leader>l", "gt<CR>")	
+nnoremap("<leader>e", "<cmd>tabe <CR><cmd>Ex<CR>")	
 nmap(';',':')
+nmap('5','%')
 
 
 
