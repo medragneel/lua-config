@@ -17,7 +17,8 @@ nnoremap("J", "mzJ`z")
 nnoremap("<C-d>", "<C-d>zz")
 nnoremap("<C-u>", "<C-u>zz")
 nnoremap("<C-f>", "<cmd>Files<CR>")
-nnoremap("<leader>f","<cmd>silent lua.vim.lsp.buf.formatting()<CR>")
+nnoremap("<leader>f","<cmd>%!jq<CR>")
+nnoremap("<leader>r","<cmd>%!jq -c <CR>")
 nnoremap("<leader>q", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 nnoremap("<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 nnoremap("<leader>h", "gT<CR>")	
@@ -35,8 +36,8 @@ nmap('5','%')
 vnoremap("J", ":m '>+1<CR>gv=gv")
 vnoremap("K", ":m '<-2<CR>gv=gv")
 
-vnoremap("<Right>", ">gv")
-vnoremap("<Left>", " <gv")
+vnoremap("l", ">gv")
+vnoremap("h", " <gv")
 
 
 
