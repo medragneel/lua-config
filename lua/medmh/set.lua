@@ -8,6 +8,7 @@ vim.opt.iskeyword:append('-')
 vim.opt.encoding = "UTF-8"
 vim.opt.autoread = true
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
 vim.opt.hlsearch = false
 vim.opt.wrap = true

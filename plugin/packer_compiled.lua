@@ -184,6 +184,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mshadow/.local/share/nvim/site/pack/packer/start/vim-rainbow",
     url = "https://github.com/frazrepo/vim-rainbow"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/home/mshadow/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
   }
 }
 

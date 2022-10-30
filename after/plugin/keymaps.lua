@@ -19,15 +19,15 @@ nnoremap("<C-u>", "<C-u>zz")
 nnoremap("<C-f>", "<cmd>Files<CR>")
 nnoremap("<leader>f","<cmd>%!jq<CR>")
 nnoremap("<leader>r","<cmd>%!jq -c <CR>")
-nnoremap("<leader>q", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
+nnoremap("<leader>1", ":%s/\\<<C-r><C-w>\\>/<C-r><C-w>/gI<Left><Left><Left>")
 nnoremap("<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 nnoremap("<leader>h", "gT<CR>")	
 nnoremap("<leader>l", "gt<CR>")	
 nnoremap("<leader>e", "<cmd>tabe <CR><cmd>Ex<CR>")	
+nnoremap("<leader>3", "<cmd>norm I# <CR>")	
+nnoremap("<leader>/", "<cmd>norm I// <CR>")	
 nmap(';',':')
 nmap('5','%')
-
-
 
 
 
