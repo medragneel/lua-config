@@ -28,6 +28,7 @@ nnoremap("<leader>3", "<cmd>norm I# <CR>")
 nnoremap("<leader>/", "<cmd>norm I// <CR>")	
 nmap(';',':')
 nmap('5','%')
+nmap('4','$')
 
 
 
@@ -41,11 +42,11 @@ vnoremap("h", " <gv")
 
 
 
-nnoremap("cp", "\"+y")
-vnoremap("cp", "\"+y")
-nmap("cp", "\"+Y")
+nnoremap("<leader>c", "\"+y")
+vnoremap("<leader>c", "\"+y")
+nmap("<leader>c", "\"+Y")
 
-nnoremap("cv", "\"+p")
+nnoremap("<leader>v", "\"+p")
 
 
 nnoremap("<leader>d", "\"_d")
